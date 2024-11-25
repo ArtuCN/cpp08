@@ -1,10 +1,10 @@
-SRC = main.cpp 
+SRC = main.cpp src/Span.cpp
 OBJ_DIR = obj
 OBJ = $(SRC:%.cpp=$(OBJ_DIR)/%.o)
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -g -std=c++98
 RM = rm -f
-NAME = EasyFind
+NAME = Span
 
 
 FUCHSIA = '\033[0;95m'
